@@ -6,3 +6,4 @@ services:
       dockerfile: Dockerfile
     working_dir: /app
     command: python main.py
+    restart: always
